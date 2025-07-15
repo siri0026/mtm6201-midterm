@@ -1,1 +1,85 @@
  /* CSS starts below */
+
+ /* Root Variable */
+ :root {
+  --color-primary: #d69e3d;
+  --color-secondary: #966f2c;
+  --color-bg: #f3f0e9;
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --font-heading: 'Lato', sans-serif;
+  --font-body: 'Karla', sans-serif;
+
+  --max-width: 1200px;
+}
+
+  /* Styling */
+   body {
+    font-family: var(--font-body);
+    font-size: 1rem;
+    background-color: var(--color-bg);
+    color: var(--color-black);
+    margin: 0;
+    padding: 0;
+  }
+
+  header, .header-top {
+    margin-top: 0;
+  }
+
+ /* Typography */
+ h1, h2, h3, cite {
+    font-family: var(--font-heading);
+    text-transform:uppercase;
+    font-weight: bold;
+ }
+
+
+ /* Mobile Heading sizes */
+ h1 {
+    font-size: 2rem;
+ }
+
+  h2 {
+    font-size: 1.75rem;
+ }
+
+  h3, cite {
+    font-size: 1.375rem;
+ }
+
+ p, blockquote {
+    font-size: 1rem;
+ }
+
+/* Layout */
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+/* Skiplinks */
+.skip-links{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.skip-links a{
+  position: absolute;
+  top: -3em;
+  background-color: black;
+  color:white;
+}
+
+.skip-links a:focus{
+  top: 0;
+} 
+
+
+
+
